@@ -231,12 +231,12 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 </tbody>
 </table>
 
-|`<fx:element>`|`<fx:elementStartPoint>`|`<fx:routeDesignatorToNextElement>`|`<fx:alongRouteDistance>`|
+|**<fx:element>**|**<fx:elementStartPoint>**|**<fx:routeDesignatorToNextElement>**|**<fx:alongRouteDistance>**|
 |:-|:-|:-|:-|
-|**[`seqNum="0"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:locationIndicator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) **`KHGR`**|`<fx:otherRouteDesignator>` **`DIRECT`**|**`0.0` `uom="NM"`**|
-|**[`seqNum="1"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:designator`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid) **`HGR`**|[`<fx:routeDesignator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-enroute-ats-routes) **`V268`**|**`6.12` `uom="NM"`**|
-|**[`seqNum="2"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:designator`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid) **`EMI`**|`<fx:otherRouteDesignator>` **`DIRECT`**|**`48.67` `uom="NM"`**|
-|**[`seqNum="3"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:locationIndicator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) **`KBWI`**||**`72.47` `uom="NM"`**|
+|[`seqNum="0"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)|[`<fb:locationIndicator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) `KHGR`|`<fx:otherRouteDesignator>` `DIRECT`|`0.0` `uom="NM"`|
+|[`seqNum="1"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)|[`<fb:designator`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid) `HGR`|[`<fx:routeDesignator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-enroute-ats-routes) `V268`|`6.12` `uom="NM"`|
+|[`seqNum="2"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)|[`<fb:designator`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid) `EMI`|`<fx:otherRouteDesignator>` `DIRECT`|`48.67` `uom="NM"`|
+|[`seqNum="3"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)|[`<fb:locationIndicator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) `KBWI`||`72.47` `uom="NM"`|
 
 
 |`<fx:element>`|`<fx:elementStartPoint>`|`<fx:routeDesignatorToNextElement>`|`<fx:alongRouteDistance>`|
