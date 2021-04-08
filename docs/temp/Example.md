@@ -19,8 +19,20 @@ The FPL Item 15c reads **`DCT HGR V268 EMI DCT`**
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td></td>
+<td>
+```xml
+<fx:departure>
+   <fx:aerodrome>
+      <fb:locationIndicator>KHGR</fb:locationIndicator>
+   </fx:aerodrome>
+   <fx:estimatedOffBlockTime>2021-03-04T07:00:00.000Z</fx:estimatedOffBlockTime>
+</fx:departure>
+```
+</td>
+<td>
+Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
+Rules for [`<fx:estimatedOffBlockTime>`](https://docs.fixm.aero/#/general-guidance/date-time-specification)
+</td>
 </tbody>
 </table>
 
