@@ -19,7 +19,8 @@ The FPL Item 15c reads **`DCT HGR V268 EMI DCT`**
 </thead>
 <tbody>
 <tr class="odd">
-<td>
+<td><p>
+
 ```xml
 <fx:departure>
    <fx:aerodrome>
@@ -28,11 +29,14 @@ The FPL Item 15c reads **`DCT HGR V268 EMI DCT`**
    <fx:estimatedOffBlockTime>2021-03-04T07:00:00.000Z</fx:estimatedOffBlockTime>
 </fx:departure>
 ```
-</td>
-<td>
+
+</p></td>
+<td><p>
+
 Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
 Rules for [`<fx:estimatedOffBlockTime>`](https://docs.fixm.aero/#/general-guidance/date-time-specification)
-</td>
+
+</p></td>
 </tbody>
 </table>
 
