@@ -105,12 +105,21 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 <table>
 <thead>
 <tr class="header">
+<th><p>`<fx:element>`</p></th>
 <th>FIXM Encoding</th>
 <th>FIXM Encoding Rules</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td><p>
+
+```xml
+<fx:element seqNum="0">
+```
+
+</p></td>
+
 <td><p>
 
 ```xml
