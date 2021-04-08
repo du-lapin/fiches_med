@@ -106,9 +106,8 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 <thead>
 <tr class="header">
 <th>#</th>
-<th>RE Start Point</th>
+<th>RE Start Point<br>& Geographic Position (optional)  </th>
 <th>Along route Distance (optional)</th>
-<th>RE Stat Point Geographic Position (optional)</th>
 <th>Route to Next Element</th>
 </tr>
 </thead>
@@ -121,17 +120,12 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 </p></td>
 <td><p>
 
-`KHGR`
+`KHGR` `N39:42:31 W007:43:35`
 
 </p></td>
 <td><p>
 
 `0.00 NM`
-
-</p></td>
-<td><p>
-
-`N39:42:31 W007:43:35`
 
 </p></td>
 <td><p>
@@ -155,6 +149,8 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 <fx:elementStartPoint>
    <fb:aerodromeReferencePoint>
       <fb:locationIndicator>KHGR</...>
+	  <fb:referencePoint srsName="urn:ogc:def:crs:EPSG::4326">
+         <fb:pos>39.70861111 -77.72638889</fb:pos>
 ```
 
 </p></td>
@@ -168,17 +164,8 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 <td><p>
 
 ```xml
-<fb:referencePoint srsName="urn:ogc:def:crs:EPSG::4326">
-   <fb:pos>39.70861111 -77.72638889</fb:pos>
-```
-
-</p></td>
-<td><p>
-
-```xml
-<fb:aerodromeReferencePoint>
-   <fx:routeDesignatorToNextElement>
-      <fx:otherRouteDesignator>DIRECT</...>
+<fx:routeDesignatorToNextElement>
+   <fx:otherRouteDesignator>DIRECT</...>
 ```
 
 </p></td>
