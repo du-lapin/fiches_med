@@ -14,7 +14,7 @@ The FPL Item 15c reads **`DCT HGR V268 EMI DCT`**
 * [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) `<fb:locationIndicator>` **`KBWI`**
 
 ## Content of `<fx:routeInformation>`
-* `<fx:cruisingLevel>` [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances) **`5000` `uom="FT"`**
+* `<fx:cruisingLevel>` [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances) **`5000`** **`uom="FT"`**
 * `<fx:cruisingSpeed>` **`160` `uom="KT"`** 
 * `<fx:totalEstimatedElapsedTime>` **`P0Y0M0DT0H27M15.000S`**
 
