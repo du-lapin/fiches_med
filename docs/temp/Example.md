@@ -114,11 +114,31 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 </thead>
 <tbody>
 <tr>
-<td><p>`1`</p></td>
-<td><p>`KHGR`</p></td>
-<td><p>`0.00 NM`</p></td>
-<td><p>`N39:42:31 W007:43:35`</p></td>
-<td><p>`Direct`</p></td>
+<td><p>
+
+`1`
+
+</p></td>
+<td><p>
+
+`KHGR`
+
+</p></td>
+<td><p>
+
+`0.00 NM`
+
+</p></td>
+<td><p>
+
+`N39:42:31 W007:43:35`
+
+</p></td>
+<td><p>
+
+`Direct`
+
+</p></td>
 </tr>
 
 <tr>
