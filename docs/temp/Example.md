@@ -121,9 +121,6 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 <td><p>`KHGR`</p></td>
 </tr>
 
-<td><p>
-
-
 <tr class="odd">
 <td><p>
 
