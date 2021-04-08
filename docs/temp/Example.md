@@ -39,7 +39,34 @@ Rules for [`<fx:estimatedOffBlockTime>`](https://docs.fixm.aero/#/general-guidan
 </table>
 
 ## Content of `<fx:arrival>`
-* [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) `<fb:locationIndicator>` **`KBWI`**
+
+<table>
+<thead>
+<tr class="header">
+<th>FIXM Encoding</th>
+<th>FIXM Encoding Rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>
+
+```xml
+<fx:arrival>
+   <fx:destinationAerodrome>
+      <fb:locationIndicator>KBWI</fb:locationIndicator>
+   </fx:destinationAerodrome>
+   </fx:arrival>
+```
+
+</p></td>
+<td><p>
+
+Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
+
+</p></td>
+</tbody>
+</table>
 
 ## Content of `<fx:routeInformation>`
 * `<fx:cruisingLevel>` [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances) **`5000`** **`uom="FT"`**
