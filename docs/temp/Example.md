@@ -117,37 +117,49 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 <td><p>
 
 ```xml
-<fx:element 
-   seqNum="0">
+<fx:element seqNum="0">
 ```
 
 </p></td>
 <td><p>
 
 ```xml
-<fx:element seqNum="0">
-   <fx:alongRouteDistance uom="NM">0.0</fx:alongRouteDistance>
-   <fx:elementStartPoint>
-      <fb:aerodromeReferencePoint>
-         <fb:locationIndicator>KHGR</fb:locationIndicator>
-      </fb:aerodromeReferencePoint>
-   </fx:elementStartPoint>
-   <fx:routeDesignatorToNextElement>
-      <fx:otherRouteDesignator>DIRECT</fx:otherRouteDesignator>
-   </fx:routeDesignatorToNextElement>
-</fx:element>
+<fx:elementStartPoint>
+   <fb:aerodromeReferencePoint>
+      <fb:locationIndicator>KHGR</fb:locationIndicator>
+   </fb:aerodromeReferencePoint>
+</fx:elementStartPoint>
 ```
 
 </p></td>
 <td><p>
 
-Rules for `<fx:routeTrajectoryGroup>` (FF-ICE Basic Route)
-<br><br>
-Rules for [`<fb:aerodromeReferencePoint>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
+```xml
+<fx:alongRouteDistance uom="NM">0.0</fx:alongRouteDistance>
+```
 
 </p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>
+
+```xml
+<fb:locationIndicator>KHGR</fb:locationIndicator>
+<fb:referencePoint srsName="urn:ogc:def:crs:EPSG::4326">
+   <fb:pos>39.70861111 -77.72638889</fb:pos>
+</fb:referencePoint>
+```
+
+</p></td>
+<td><p>
+
+```xml
+<fb:aerodromeReferencePoint>
+   <fx:routeDesignatorToNextElement>
+      <fx:otherRouteDesignator>DIRECT</fx:otherRouteDesignator>
+   </fx:routeDesignatorToNextElement>
+</fb:aerodromeReferencePoint>
+```
+
+</p></td>
 </tbody>
 </table>
 
