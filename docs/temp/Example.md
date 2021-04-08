@@ -146,6 +146,63 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 <td><p>
 
 ```xml
+<fb:locationIndicator>KHGR</...>
+
+<fb:pos>39.70861111 -77.72638889</fb:pos>
+```
+
+</p></td>
+<td><p>
+
+```xml
+<fx:alongRouteDistance uom="NM">0.0</...>
+```
+
+</p></td>
+<td><p>
+
+```xml
+<fx:routeDesignatorToNextElement>
+   <fx:otherRouteDesignator>DIRECT</...>
+```
+
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`2`
+
+</p></td>
+<td><p>
+
+`HGR` `N39:41:52 W007:51:21`
+
+</p></td>
+<td><p>
+
+`6.12 NM`
+
+</p></td>
+<td><p>
+
+`V268`
+
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+```xml
+<fx:element seqNum="1">
+```
+
+</p></td>
+<td><p>
+
+```xml
 <fx:elementStartPoint>
    <fb:aerodromeReferencePoint>
       <fb:locationIndicator>KHGR</...>
@@ -169,8 +226,17 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 ```
 
 </p></td>
+</tr>
+
 </tbody>
 </table>
+
+|`<fx:element>`|`<fx:elementStartPoint>`|`<fx:routeDesignatorToNextElement>`|`<fx:alongRouteDistance>`|
+|:-|:-|:-|:-|
+|**[`seqNum="0"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:locationIndicator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) **`KHGR`**|`<fx:otherRouteDesignator>` **`DIRECT`**|**`0.0` `uom="NM"`**|
+|**[`seqNum="1"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:designator`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid) **`HGR`**|[`<fx:routeDesignator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-enroute-ats-routes) **`V268`**|**`6.12` `uom="NM"`**|
+|**[`seqNum="2"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:designator`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid) **`EMI`**|`<fx:otherRouteDesignator>` **`DIRECT`**|**`48.67` `uom="NM"`**|
+|**[`seqNum="3"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:locationIndicator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) **`KBWI`**||**`72.47` `uom="NM"`**|
 
 
 |`<fx:element>`|`<fx:elementStartPoint>`|`<fx:routeDesignatorToNextElement>`|`<fx:alongRouteDistance>`|
