@@ -105,14 +105,11 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 <table>
 <thead>
 <tr class="header">
-<th>
-<p>
-
-`<fx:element>`
-
-</p></th>
-<th>FIXM Encoding</th>
-<th>FIXM Encoding Rules</th>
+<th>#</th>
+<th>RE Start Point</th>
+<th>Along route Distance (optional)</th>
+<th>RE Stat Point Geographic Position (optional)</th>
+<th>Route to Next Element</th>
 </tr>
 </thead>
 <tbody>
@@ -124,7 +121,6 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 ```
 
 </p></td>
-
 <td><p>
 
 ```xml
@@ -149,6 +145,8 @@ Rules for `<fx:routeTrajectoryGroup>` (FF-ICE Basic Route)
 Rules for [`<fb:aerodromeReferencePoint>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
 
 </p></td>
+<td><p></p></td>
+<td><p></p></td>
 </tbody>
 </table>
 
