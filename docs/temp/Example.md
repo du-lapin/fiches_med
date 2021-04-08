@@ -56,7 +56,7 @@ Rules for [`<fx:estimatedOffBlockTime>`](https://docs.fixm.aero/#/general-guidan
    <fx:destinationAerodrome>
       <fb:locationIndicator>KBWI</fb:locationIndicator>
    </fx:destinationAerodrome>
-   </fx:arrival>
+</fx:arrival>
 ```
 
 </p></td>
@@ -69,9 +69,36 @@ Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/reference
 </table>
 
 ## Content of `<fx:routeInformation>`
-* `<fx:cruisingLevel>` [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances) **`5000`** **`uom="FT"`**
-* `<fx:cruisingSpeed>` **`160` `uom="KT"`** 
-* `<fx:totalEstimatedElapsedTime>` **`P0Y0M0DT0H27M15.000S`**
+
+<table>
+<thead>
+<tr class="header">
+<th>FIXM Encoding</th>
+<th>FIXM Encoding Rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>
+
+```xml
+<fx:routeInformation>
+   <fx:cruisingLevel>
+      <fb:altitude uom="FT">5000</fb:altitude>
+   </fx:cruisingLevel>
+   <fx:cruisingSpeed uom="KT">160</fx:cruisingSpeed>
+   <fx:totalEstimatedElapsedTime>P0Y0M0DT0H27M15.000S</fx:totalEstimatedElapsedTime>
+</fx:routeInformation>
+```
+
+</p></td>
+<td><p>
+
+Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances)
+
+</p></td>
+</tbody>
+</table>
 
 ## Content of `<fx:routeTrajectoryGroup>` - FF-ICE Basic Route
 
