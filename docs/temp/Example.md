@@ -102,6 +102,43 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 
 ## Content of `<fx:routeTrajectoryGroup>` - FF-ICE Basic Route
 
+<table>
+<thead>
+<tr class="header">
+<th>FIXM Encoding</th>
+<th>FIXM Encoding Rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>
+
+```xml
+<fx:element seqNum="0">
+   <fx:alongRouteDistance uom="NM">0.0</fx:alongRouteDistance>
+   <fx:elementStartPoint>
+      <fb:aerodromeReferencePoint>
+         <fb:locationIndicator>KHGR</fb:locationIndicator>
+      </fb:aerodromeReferencePoint>
+   </fx:elementStartPoint>
+   <fx:routeDesignatorToNextElement>
+      <fx:otherRouteDesignator>DIRECT</fx:otherRouteDesignator>
+   </fx:routeDesignatorToNextElement>
+</fx:element>
+```
+
+</p></td>
+<td><p>
+
+Rules for `<fx:routeTrajectoryGroup>` (FF-ICE Basic Route)
+<br><br>
+Rules for [`<fb:aerodromeReferencePoint>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
+
+</p></td>
+</tbody>
+</table>
+
+
 |`<fx:element>`|`<fx:elementStartPoint>`|`<fx:routeDesignatorToNextElement>`|`<fx:alongRouteDistance>`|
 |:-|:-|:-|:-|
 |**[`seqNum="0"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:aerodromeReferencePoint>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)<br>`<fb:locationIndicator>` **`KHGR`**|`<fx:otherRouteDesignator>` **`DIRECT`**|**`0.0` `uom="NM"`**|
