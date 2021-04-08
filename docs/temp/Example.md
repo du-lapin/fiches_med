@@ -117,7 +117,8 @@ Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-d
 <td><p>
 
 ```xml
-<fx:element seqNum="0">
+<fx:element 
+   seqNum="0">
 ```
 
 </p></td>
