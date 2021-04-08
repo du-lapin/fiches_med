@@ -34,6 +34,7 @@ The FPL Item 15c reads **`DCT HGR V268 EMI DCT`**
 <td><p>
 
 Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
+<br><br>
 Rules for [`<fx:estimatedOffBlockTime>`](https://docs.fixm.aero/#/general-guidance/date-time-specification)
 
 </p></td>
