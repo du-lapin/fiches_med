@@ -846,13 +846,12 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-`Geographic Position` `N39:41:52 W077:51:21`
+`N39:41:52 W077:51:21` `2732 ft` `Relative 00:02:35`
 
-`Point Property` `TCP - Lateral`
+`125 kts`
 
-`Altitude` `2732 ft` `Ind. Air Speed` `125 kts`
+`TCP - Lateral`
 
-`Time` `Relative 00:02:35`
 
 ```xml
 <fx:point4D>
@@ -884,6 +883,61 @@ Encoding Rules:
 ```xml
 <fx:element 
  seqNum="2">
+```
+
+</p></td>
+<td><p>
+</p></td>
+<td><p>
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`4`
+
+```xml
+<fx:element 
+ seqNum="3">
+```
+
+</p></td>
+<td><p>
+</p></td>
+<td><p>
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`5`
+
+```xml
+<fx:element 
+ seqNum="4">
+```
+
+</p></td>
+<td><p>
+</p></td>
+<td><p>
+</p></td>
+</tr>
+
+
+
+<tr>
+
+
+<td><p>
+
+`6`
+
+```xml
+<fx:element 
+ seqNum="5">
 ```
 
 </p></td>
