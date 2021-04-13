@@ -1,11 +1,27 @@
 # Example Data
 
 This page explains how the route/trajectory example from the FF-ICE/R1 Implementation Guidance Manual (Appendix E-3.7) is concretely encoded in FIXM. 
-The FPL Item 15c reads **`DCT HGR V268 EMI DCT`**
+The FPL Item 15c reads `DCT HGR V268 EMI DCT`
 
 ![Image](./map.png)
 
 ## Content of `<fx:departure>`
+
+Field 13 Departure Aerodrome `KHGR`
+
+```xml
+<fx:departure>
+   <fx:aerodrome>
+      <fb:locationIndicator>KHGR</fb:locationIndicator>
+   </fx:aerodrome>
+   <fx:estimatedOffBlockTime>2021-03-04T07:00:00.000Z</fx:estimatedOffBlockTime>
+</fx:departure>
+```
+
+Encoding Rules:
+* Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
+* Rules for [`<fx:estimatedOffBlockTime>`](https://docs.fixm.aero/#/general-guidance/date-time-specification)
+
 
 <table>
 <thead>
@@ -17,6 +33,8 @@ The FPL Item 15c reads **`DCT HGR V268 EMI DCT`**
 <tbody>
 <tr class="odd">
 <td><p>
+
+Field 13 Departure Aerodrome `KHGR`
 
 ```xml
 <fx:departure>
