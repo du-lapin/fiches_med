@@ -485,6 +485,8 @@ Encoding Rules:
    <fb:pos>39.5625 -77.26722222</fb:pos>
 ```
 
+*This is a route element added by the expanded route, featuring the waypoint KEMAR that is published along route V268.*
+
 </p></td>
 <td><p>
 
