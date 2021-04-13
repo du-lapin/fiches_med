@@ -728,7 +728,7 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>RE Start Point<br>& Geographic Position (optional)<br>& Along Route Distance (optional)<br>& Route to Next Element</th>
+<th>RE Start Point & Geographic Position (optional)<br>& Along Route Distance (optional)<br>& Route to Next Element</th>
 <th>Trajectory Point</th>
 </tr>
 </thead>
@@ -778,9 +778,7 @@ Encoding Rules:
 
 `Point Property` `Airport Reference Loc.` `Initial Prediction Point`
 
-`Altitude` `703 ft`
-
-`Ind. Air Speed` `125 kts`
+`Altitude` `703 ft` `Ind. Air Speed` `125 kts`
 
 `Time` `Absolute 07:00:00`
 
