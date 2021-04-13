@@ -69,9 +69,9 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>RE `Start Point`<br>& `Geographic Position` (optional)  </th>
-<th>`Along Route Distance` (optional)</th>
-<th>`Route to Next Element`</th>
+<th>Route Element Start Point<br>& Geographic Position (optional)  </th>
+<th>Along Route Distance (optional)</th>
+<th>Route to Next Element</th>
 </tr>
 </thead>
 <tbody>
@@ -363,8 +363,8 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>RE Start Point<br>& Geographic Position (optional)  </th>
-<th>Along route Distance (optional)</th>
+<th>Route Element Start Point<br>& Geographic Position (optional)  </th>
+<th>Along Route Distance (optional)</th>
 <th>Route to Next Element</th>
 </tr>
 </thead>
@@ -728,7 +728,7 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>RE Start Point & Geographic Position (optional)<br>& Along Route Distance (optional)<br>& Route to Next Element</th>
+<th>**Route Element Start Point** & Geographic Position (optional)<br>& Along Route Distance (optional)<br>& Route to Next Element</th>
 <th>Trajectory Point</th>
 </tr>
 </thead>
