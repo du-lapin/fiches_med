@@ -91,9 +91,10 @@ Encoding Rules:
 `KHGR` `N39:42:31 W007:43:35`
 
 ```xml
-<fb:aerodromeReferencePoint>
+<fx:elementStartPoint>
+ <fb:aerodromeReferencePoint>
   <fb:locationIndicator>KHGR</...>
-  <fb:referencePoint srsName="urn:ogc:def:crs:EPSG::4326">
+   <fb:referencePoint srsName="...:EPSG::4326">
     <fb:pos>39.70861111 -77.72638889</fb:pos>
 ```
 
@@ -103,7 +104,8 @@ Encoding Rules:
 `0.00 NM`
 
 ```xml
-<fx:alongRouteDistance uom="NM">0.0</...>
+<fx:alongRouteDistance
+ uom="NM">0.0</...>
 ```
 
 </p></td>
@@ -113,7 +115,7 @@ Encoding Rules:
 
 ```xml
 <fx:routeDesignatorToNextElement>
-  <fx:otherRouteDesignator>DIRECT</...>
+ <fx:otherRouteDesignator>DIRECT</...>
 ```
 
 </p></td>
@@ -124,20 +126,43 @@ Encoding Rules:
 
 `2`
 
+```xml
+<fx:element 
+ seqNum="1">
+```
+
 </p></td>
 <td><p>
 
 `HGR` `N39:41:52 W077:51:21`
+
+```xml
+<fx:elementStartPoint>
+ <fb:navaid>
+  <fb:designator>HGR</fb:...>
+  <fb:position srsName="...:EPSG::4326">
+   <fb:pos>39.69777778 -77.85583333</fb:pos>
+```
 
 </p></td>
 <td><p>
 
 `6.12 NM`
 
+```xml
+<fx:alongRouteDistance 
+ uom="NM">6.12</...>
+```
+
 </p></td>
 <td><p>
 
 `V268`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:routeDesignator>V268</...>
+```
 
 </p></td>
 </tr>
@@ -146,6 +171,11 @@ Encoding Rules:
 <td><p>
 
 `3`
+
+```xml
+<fx:element 
+ seqNum="2">
+```
 
 </p></td>
 <td><p>
@@ -169,6 +199,11 @@ Encoding Rules:
 <td><p>
 
 `4`
+
+```xml
+<fx:element 
+ seqNum="3">
+```
 
 </p></td>
 <td><p>
