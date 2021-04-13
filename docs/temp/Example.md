@@ -7,8 +7,9 @@ The FPL Item 15c reads `DCT HGR V268 EMI DCT`
 
 ## Content of `<fx:departure>`
 
-Departure Aerodrome `KHGR`
-EOBT `07:00`
+`Departure Aerodrome` `KHGR`
+
+`EOBT` `07:00`
 
 ```xml
 <fx:departure>
@@ -26,7 +27,7 @@ Encoding Rules:
 
 ## Content of `<fx:arrival>`
 
-Destination Aerodrome `KBWI`
+`Destination Aerodrome` `KBWI`
 
 ```xml
 <fx:arrival>
@@ -42,9 +43,10 @@ Encoding Rules:
 
 ## Content of `<fx:routeInformation>`
 
-Total EET `00:27:15`
-Cruising Level `5000 ft`
-Cruising Speed `160 kts`
+`Total EET` `00:27:15`
+
+`Cruising Level` `5000 ft`
+`Cruising Speed` `160 kts`
 
 ```xml
 <fx:routeInformation>
@@ -124,7 +126,7 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-`HGR` `N39:41:52 W007:51:21`
+`HGR` `N39:41:52 W077:51:21`
 
 </p></td>
 <td><p>
@@ -142,38 +144,49 @@ Encoding Rules:
 <tr>
 <td><p>
 
-```xml
-<fx:element seqNum="1">
-```
+`3`
 
 </p></td>
 <td><p>
 
-```xml
-<fx:elementStartPoint>
-   <fb:aerodromeReferencePoint>
-      <fb:locationIndicator>KHGR</...>
-	  <fb:referencePoint srsName="urn:ogc:def:crs:EPSG::4326">
-         <fb:pos>39.70861111 -77.72638889</fb:pos>
-```
+`EMI` `N39:29:42 W076:58:43`
 
 </p></td>
 <td><p>
 
-```xml
-<fx:alongRouteDistance uom="NM">0.0</...>
-```
+`48.67 NM`
 
 </p></td>
 <td><p>
 
-```xml
-<fx:routeDesignatorToNextElement>
-   <fx:otherRouteDesignator>DIRECT</...>
-```
+`Direct`
 
 </p></td>
 </tr>
+
+<tr>
+<td><p>
+
+`4`
+
+</p></td>
+<td><p>
+
+`KBWI` `N39:10:33 W076:40:08`
+
+</p></td>
+<td><p>
+
+`72.47 NM`
+
+</p></td>
+<td><p>
+
+`n/a`
+
+</p></td>
+</tr>
+
 
 </tbody>
 </table>
