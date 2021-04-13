@@ -728,8 +728,7 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>RE Start Point<br>& Geographic Position (optional)  </th>
-<th>Along route Distance (optional)</th>
+<th>RE Start Point<br>& Geographic Position (optional) & Along Route Distance (optional)</th>
 <th>Route to Next Element</th>
 <th>Trajectory Point</th>
 </tr>
@@ -749,7 +748,7 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-`KHGR` `N39:42:31 W007:43:35` `0.00 NM` `Direct`
+`KHGR` `N39:42:31 W007:43:35` `0.00 NM`
 
 ```xml
 <fx:alongRouteDistance uom="NM">0.0</...>
@@ -761,6 +760,14 @@ Encoding Rules:
   </fb:referencePoint>
  </fb:aerodromeReferencePoint>
 </fx:elementStartPoint>
+```
+
+</p></td>
+<td><p>
+
+`Direct`
+
+```xml
 <fx:routeDesignatorToNextElement>
  <fx:otherRouteDesignator>DIRECT</...>
 </fx:routeDesignatorToNextElement>
@@ -769,25 +776,15 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-`0.00 NM`
-
-```xml
-<fx:alongRouteDistance
- uom="NM">0</...>
-```
-
-</p></td>
-<td><p>
-
 `Geographic Position` `N39:42:31 W077:43:35`
 
 `Point Property` `Airport Reference Loc.` `Initial Prediction Point`
 
 `Altitude` `703 ft`
 
-`Ind. Air Speed` `125`
+`Ind. Air Speed` `125 kts`
 
-`Time` `Absolute HH:MM:SS`
+`Time` `Absolute 07:00:00`
 
 ```xml
 <fx:point4D>
@@ -811,38 +808,7 @@ Encoding Rules:
 ```
 
 </p></td>
-<td><p>
-`Geographic Position` `N39:42:31 W077:43:35`
 
-`Point Property` `Airport Reference Loc.` `Initial Prediction Point`
-
-`Altitude` `703 ft`
-
-`Ind. Air Speed` `125`
-
-`Time` `Absolute HH:MM:SS`
-
-```xml
-<fx:point4D>
- <fx:level>
-  <fb:altitude uom="FT">703</fb:altitude>
- </fx:level>
- <fx:pointProperty>
-  <fx:propertyType>AIRPORT_REFERENCE_LOCATION</...>
- </fx:pointProperty>
- <fx:pointProperty>
-  <fx:propertyType>INITIAL_PREDICTION_POINT</...>
- </fx:pointProperty>
- <fx:position srsName="...:EPSG::4326">
-  <fb:pos>39.70861111 -77.72638889</fb:pos>
- </fx:position>
- <fx:predictedAirspeed uom="KT">125</...>
- <fx:time>
-  <fx:absoluteTime>2021-03-04T07:00:00.000Z</...>
- </fx:time>
-</fx:point4D>
-```
-</p></td>
 </tr>
 
 <tr>
@@ -887,10 +853,6 @@ Encoding Rules:
 <fx:routeDesignatorToNextElement>
  <fx:routeDesignator>V268</...>
 ```
-
-</p></td>
-<td><p>
-
 
 </p></td>
 </tr>
@@ -939,10 +901,6 @@ Encoding Rules:
 ```
 
 </p></td>
-<td><p>
-
-
-</p></td>
 </tr>
 
 <tr>
@@ -989,10 +947,6 @@ Encoding Rules:
 ```
 
 </p></td>
-<td><p>
-
-
-</p></td>
 </tr>
 
 <tr>
@@ -1034,10 +988,7 @@ Encoding Rules:
 `n/a`
 
 </p></td>
-<td><p>
 
-
-</p></td>
 </tr>
 
 <tr>
