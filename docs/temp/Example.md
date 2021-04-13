@@ -759,6 +759,8 @@ Encoding Rules:
    <fb:pos>39.70861111 -77.72638889</fb:pos>
 ```
 
+The example uses the aerodrome reference location as the Start Prediction Point. However, if known, the specific departure runway location should be included as precise trajectory start point, using the appropriate point property (Wheels_off...).
+
 `0.00 NM`
 
 ```xml
