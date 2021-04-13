@@ -909,6 +909,21 @@ Encoding Rules:
 
 `125 kts`
 
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">4389</fb:altitude>
+ </fx:level>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.67722222 -77.76583333</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">125</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H4M43.000S</...>
+ </fx:time>
+</fx:point4D>
+```
+
 </p></td>
 </tr>
 
@@ -948,6 +963,24 @@ Encoding Rules:
 
 `Top of Climb`
 
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">5000</fb:altitude>
+ </fx:level>
+ <fx:pointProperty>
+  <fx:propertyType>TOP_OF_CLIMB</fx:propertyType>
+ </fx:pointProperty>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.66833333 -77.72666667</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">125</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H5M35.000S</fx:...>
+ </fx:time>
+</fx:point4D>
+```
+
 </p></td>
 </tr>
 
@@ -986,6 +1019,24 @@ Encoding Rules:
 `160 kts`
 
 `TCP - Speed`
+
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">5000</fb:altitude>
+ </fx:level>
+ <fx:pointProperty>
+  <fx:propertyType>TCP_SPEED</fx:propertyType>
+ </fx:pointProperty>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.66333333 -77.70416667</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">160</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H6M2.000S</fx:relativeTimeFromInitialPredictionPoint>
+ </fx:time>
+</fx:point4D>
+```
 
 </p></td>
 </tr>
@@ -1038,6 +1089,21 @@ Encoding Rules:
 
 `160 kts`
 
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">5000</fb:altitude>
+ </fx:level>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.5625 -77.26722222</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">160</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H13M56.000S</...>
+ </fx:time>
+</fx:point4D>
+```
+
 </p></td>
 
 </tr>
@@ -1088,6 +1154,24 @@ Encoding Rules:
 
 `TCP - Lateral`
 
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">5000</fb:altitude>
+ </fx:level>
+ <fx:pointProperty>
+  <fx:propertyType>TCP_LATERAL</fx:propertyType>
+ </fx:pointProperty>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.495 -76.97861111</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">160</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H19M2.000S</...>
+ </fx:time>
+</fx:point4D>
+```
+
 </p></td>
 
 </tr>
@@ -1129,6 +1213,24 @@ Encoding Rules:
 
 `Top of Descent`
 
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">5000</fb:altitude>
+ </fx:level>
+ <fx:pointProperty>
+  <fx:propertyType>TOP_OF_DESCENT</fx:propertyType>
+ </fx:pointProperty>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.45722222 -76.94166667</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">160</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H20M1.000S</...>
+ </fx:time>
+</fx:point4D>
+```
+
 </p></td>
 </tr>
 
@@ -1166,6 +1268,21 @@ Encoding Rules:
 
 `160 kts`
 
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">4852</fb:altitude>
+ </fx:level>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.44833333 -76.93305556</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">160</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H20M15.000S</...>
+ </fx:time>
+</fx:point4D>
+```
+
 </p></td>
 </tr>
 
@@ -1202,6 +1319,21 @@ Encoding Rules:
 `N39:11:16 W076:40:50` `366 ft` `Relative 00:26:55`
 
 `120 kts`
+
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">366</fb:altitude>
+ </fx:level>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.18777778 -76.68055556</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">120</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H26M55.000S</...>
+ </fx:time>
+</fx:point4D>
+```
 
 </p></td>
 </tr>
@@ -1247,6 +1379,27 @@ Encoding Rules:
 
 `Airport Reference Loc.` `End Prediction Point`
 
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">143</fb:altitude>
+ </fx:level>
+ <fx:pointProperty>
+  <fx:propertyType>AIRPORT_REFERENCE_LOCATION</fx:propertyType>
+ </fx:pointProperty>
+ <fx:pointProperty>
+  <fx:propertyType>END_PREDICTION_POINT</fx:propertyType>
+ </fx:pointProperty>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.17583333 -76.66888889</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">100</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H27M15.000S</fx:relativeTimeFromInitialPredictionPoint>
+ </fx:time>
+</fx:point4D>
+```
+
 </p></td>
 
 </tr>
@@ -1287,20 +1440,6 @@ Encoding Rules:
 
 </tbody>
 </table>
-
-|`<fx:element>`|`<fx:elementStartPoint>`|`<fx:routeDesignatorToNextElement>`|`<fx:alongRouteDistance>`|`<fx:point4D>`|
-|:-|:-|:-|:-|:-|
-|**[`seqNum="0"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:aerodromeReferencePoint>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)<br>`<fb:locationIndicator>` **`KHGR`**<br>[`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions) **`39.70861111 -77.72638889`**|`<fx:otherRouteDesignator>` **`DIRECT`**|**`0.0` `uom="NM"`**|`<fx:pointProperty>` `<fx:propertyType>` **`AIRPORT_REFERENCE_LOCATION`** **`INITIAL_PREDICTION_POINT`**<br><br>`<fx:position>` [`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions) **`39.70861111 -77.72638889`**<br><br>`<fx:level>` [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances) **`703` `uom="FT"`**<br><br>`<fx:predictedAirspeed>` **`125` `uom="KT"`**<br><br>`<fx:time>` [`<fx:absoluteTime>`](https://docs.fixm.aero/#/general-guidance/date-time-specification) **`2021-03-04T07:00:00.000Z`**|
-|**[`seqNum="1"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:navaid>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid)<br>`fb:designator` **`HGR`**<br>[`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions) **`39.69777778 -77.85583333`**|[`<fx:routeDesignator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-enroute-ats-routes) **`V268`**|**`6.12` `uom="NM"`**|`<fx:pointProperty>` `<fx:propertyType>` **`TCP_LATERAL`**<br><br>`<fx:position>` [`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions) **`39.70861111 -77.72638889`**<br><br>`<fx:level>` [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances) **`2732` `uom="FT"`**<br><br>`<fx:predictedAirspeed>` **`125` `uom="KT"`**<br><br>`<fx:time>` `<fx:relativeTimeFromInitialPredictionPoint>` **`P0Y0M0DT0H2M35.000S`**|
-|**[`seqNum="2"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**||[`<fx:routeDesignator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-enroute-ats-routes) **`V268`**|**`10.35` `uom="NM"`**|`<fx:position>` [`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions) **`39.67722222 -77.76583333`**<br><br>`<fx:level>` [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances) **`4389` `uom="FT"`**<br><br>`<fx:predictedAirspeed>` **`125` `uom="KT"`**<br><br>`<fx:time>` `<fx:relativeTimeFromInitialPredictionPoint>` **`P0Y0M0DT0H4M43.000S`**|
-|**[`seqNum="3"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**||[`<fx:routeDesignator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-enroute-ats-routes) **`V268`**|**`12.18` `uom="NM"`**|`TODO`|
-|**[`seqNum="4"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**||[`<fx:routeDesignator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-enroute-ats-routes) **`V268`**|**`13.26` `uom="NM"`**|`TODO`|
-|**[`seqNum="5"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`fb:designatedPoint`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-waypoints)<br>`fb:designator` **`KEMAR`**<br>[`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions) **`39.5625 -77.26722222`**|[`<fx:routeDesignator>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-enroute-ats-routes) **`V268`**|**`34.48` `uom="NM"`**|`TODO`|
-|**[`seqNum="6"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:navaid>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid)<br>`fb:designator` **`EMI`**<br>[`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions) **`39.17583333 -76.66888889`**|`<fx:otherRouteDesignator>` **`DIRECT`**|**`48.49` `uom="NM"`**|`TODO`|
-|**[`seqNum="7"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**||`<fx:otherRouteDesignator>` **`DIRECT`**|**`51.18` `uom="NM"`**|`TODO`|
-|**[`seqNum="8"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**||`<fx:otherRouteDesignator>` **`DIRECT`**|**`51.84` `uom="NM"`**|`TODO`|
-|**[`seqNum="9"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**||`<fx:otherRouteDesignator>` **`DIRECT`**|**`71.52` `uom="NM"`**|`TODO`|
-|**[`seqNum="10"`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)**|[`<fb:aerodromeReferencePoint>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)<br>`<fb:locationIndicator>` **`KBWI`**<br>[`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions) **`39.17583333 -76.66888889`**||**`72.45` `uom="NM"`**|`TODO`|
 
 
 ```xml
