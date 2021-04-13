@@ -728,8 +728,8 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>Route Element Start Point & Geographic Position <br>Along Route Distance (optional)<br>Route to Next Element</th>
-<th>Trajectory Point Geographic Position / Level / Time<br>Indicated Air Speed<br>Point Property</th>
+<th>Route Element<br>- Start Point & Geographic Position <br>- Along Route Distance (optional)<br>Route to Next Element</th>
+<th>Trajectory Point<br>- Geographic Position / Level / Time<br>- Indicated Air Speed<br>- Point Property</th>
 </tr>
 </thead>
 <tbody>
