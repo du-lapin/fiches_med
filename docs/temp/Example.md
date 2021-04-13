@@ -7,7 +7,8 @@ The FPL Item 15c reads `DCT HGR V268 EMI DCT`
 
 ## Content of `<fx:departure>`
 
-Field 13 Departure Aerodrome `KHGR`
+Departure Aerodrome `KHGR`
+EOBT `07:00`
 
 ```xml
 <fx:departure>
@@ -23,51 +24,9 @@ Encoding Rules:
 * Rules for [`<fx:estimatedOffBlockTime>`](https://docs.fixm.aero/#/general-guidance/date-time-specification)
 
 
-<table>
-<thead>
-<tr class="header">
-<th>FIXM Encoding</th>
-<th>FIXM Encoding Rules</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>
-
-Field 13 Departure Aerodrome `KHGR`
-
-```xml
-<fx:departure>
-   <fx:aerodrome>
-      <fb:locationIndicator>KHGR</fb:locationIndicator>
-   </fx:aerodrome>
-   <fx:estimatedOffBlockTime>2021-03-04T07:00:00.000Z</fx:estimatedOffBlockTime>
-</fx:departure>
-```
-
-</p></td>
-<td><p>
-
-Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
-<br><br>
-Rules for [`<fx:estimatedOffBlockTime>`](https://docs.fixm.aero/#/general-guidance/date-time-specification)
-
-</p></td>
-</tbody>
-</table>
-
 ## Content of `<fx:arrival>`
 
-<table>
-<thead>
-<tr class="header">
-<th>FIXM Encoding</th>
-<th>FIXM Encoding Rules</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>
+Destination Aerodrome `KBWI`
 
 ```xml
 <fx:arrival>
@@ -77,27 +36,15 @@ Rules for [`<fx:estimatedOffBlockTime>`](https://docs.fixm.aero/#/general-guidan
 </fx:arrival>
 ```
 
-</p></td>
-<td><p>
+Encoding Rules:
+* Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
 
-Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
-
-</p></td>
-</tbody>
-</table>
 
 ## Content of `<fx:routeInformation>`
 
-<table>
-<thead>
-<tr class="header">
-<th>FIXM Encoding</th>
-<th>FIXM Encoding Rules</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>
+Total EET `00:27:15`
+Cruising Level `5000 ft`
+Cruising Speed `160 kts`
 
 ```xml
 <fx:routeInformation>
@@ -109,14 +56,9 @@ Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/reference
 </fx:routeInformation>
 ```
 
-</p></td>
-<td><p>
+Encoding Rules:
+* Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances)
 
-Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances)
-
-</p></td>
-</tbody>
-</table>
 
 ## Content of `<fx:routeTrajectoryGroup>` - FF-ICE Basic Route
 
