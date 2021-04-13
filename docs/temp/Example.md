@@ -94,8 +94,8 @@ Encoding Rules:
 <fx:elementStartPoint>
  <fb:aerodromeReferencePoint>
   <fb:locationIndicator>KHGR</...>
-   <fb:referencePoint srsName="...:EPSG::4326">
-    <fb:pos>39.70861111 -77.72638889</fb:pos>
+  <fb:referencePoint srsName="...:EPSG::4326">
+   <fb:pos>39.70861111 -77.72638889</fb:pos>
 ```
 
 </p></td>
@@ -105,7 +105,7 @@ Encoding Rules:
 
 ```xml
 <fx:alongRouteDistance
- uom="NM">0.0</...>
+ uom="NM">0</...>
 ```
 
 </p></td>
@@ -182,15 +182,33 @@ Encoding Rules:
 
 `EMI` `N39:29:42 W076:58:43`
 
+```xml
+<fx:elementStartPoint>
+ <fb:navaid>
+  <fb:designator>EMI</fb:designator>
+  <fb:position srsName="...:EPSG::4326">
+   <fb:pos>39.495 -76.97861111</fb:pos>
+```
+
 </p></td>
 <td><p>
 
 `48.67 NM`
 
+```xml
+<fx:alongRouteDistance 
+ uom="NM">48.67</...>
+```
+
 </p></td>
 <td><p>
 
 `Direct`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:otherRouteDesignator>DIRECT</...>
+```
 
 </p></td>
 </tr>
@@ -210,10 +228,23 @@ Encoding Rules:
 
 `KBWI` `N39:10:33 W076:40:08`
 
+```xml
+<fx:elementStartPoint>
+ <fb:aerodromeReferencePoint>
+  <fb:locationIndicator>KBWI</...>
+  <fb:referencePoint srsName="...:EPSG::4326">
+   <fb:pos>39.17583333 -76.66888889</fb:pos>
+```
+
 </p></td>
 <td><p>
 
 `72.47 NM`
+
+```xml
+<fx:alongRouteDistance 
+ uom="NM">72.47</...>
+```
 
 </p></td>
 <td><p>
