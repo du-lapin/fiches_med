@@ -254,6 +254,32 @@ Encoding Rules:
 </p></td>
 </tr>
 
+Encoding Rules:
+* Rules for [`seqNum`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)
+
+<tr>
+<td><p>
+
+Encoding Rules:
+* Rules for [` <fb:aerodromeReferencePoint>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) 
+* Rules for [`<fb:navaid>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid) 
+* Rules for [`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions)
+
+</p></td>
+<td><p>
+
+
+</p></td>
+<td><p>
+
+
+</p></td>
+<td><p>
+
+
+</p></td>
+</tr>
+
 
 </tbody>
 </table>
