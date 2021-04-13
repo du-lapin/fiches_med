@@ -887,6 +887,11 @@ Encoding Rules:
 
 </p></td>
 <td><p>
+
+`10.35 NM`
+
+`V268`
+
 </p></td>
 <td><p>
 </p></td>
@@ -904,6 +909,11 @@ Encoding Rules:
 
 </p></td>
 <td><p>
+
+`12.18 NM`
+
+`V268`
+
 </p></td>
 <td><p>
 </p></td>
@@ -921,6 +931,11 @@ Encoding Rules:
 
 </p></td>
 <td><p>
+
+`13.26 NM`
+
+`V268`
+
 </p></td>
 <td><p>
 </p></td>
@@ -979,11 +994,11 @@ Encoding Rules:
 <tr>
 <td><p>
 
-`4`
+`7`
 
 ```xml
 <fx:element 
- seqNum="3">
+ seqNum="6">
 ```
 
 </p></td>
@@ -1022,14 +1037,81 @@ Encoding Rules:
 
 </tr>
 
+
 <tr>
 <td><p>
 
-`5`
+`8`
 
 ```xml
 <fx:element 
- seqNum="4">
+ seqNum="7">
+```
+
+</p></td>
+<td><p>
+
+`51.18 NM`
+
+`Direct`
+
+</p></td>
+<td><p>
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`9`
+
+```xml
+<fx:element 
+ seqNum="8">
+```
+
+</p></td>
+<td><p>
+
+`51.84 NM`
+
+`Direct`
+
+</p></td>
+<td><p>
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`10`
+
+```xml
+<fx:element 
+ seqNum="9">
+```
+
+</p></td>
+<td><p>
+
+`71.52 NM`
+
+`Direct`
+
+</p></td>
+<td><p>
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`11`
+
+```xml
+<fx:element 
+ seqNum="10">
 ```
 
 </p></td>
