@@ -254,9 +254,13 @@ Encoding Rules:
 </p></td>
 </tr>
 
+<tr>
+<td><p>
+
 Encoding Rules:
 * Rules for [`seqNum`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)
 
+</p></td>
 <tr>
 <td><p>
 
