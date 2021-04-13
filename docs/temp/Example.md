@@ -81,7 +81,8 @@ Encoding Rules:
 `1`
 
 ```xml
-<fx:element seqNum="0">
+<fx:element 
+ seqNum="0">
 ```
 
 </p></td>
