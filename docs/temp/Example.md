@@ -728,7 +728,7 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>RE Start Point<br>& Geographic Position (optional)<br>& Along Route Distance (optional)</th>
+<th>RE Start Point<br>& Geographic Position (optional)<br>& Along Route Distance (optional)<br>& Route to Next Element</th>
 <th>Trajectory Point</th>
 <th>Route to Next Element</th>
 </tr>
@@ -748,19 +748,29 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-`KHGR` `N39:42:31 W007:43:35` `0.00 NM`
+`KHGR` `N39:42:31 W007:43:35`
 
 ```xml
-<fx:alongRouteDistance uom="NM">0.0</...>
 <fx:elementStartPoint>
  <fb:aerodromeReferencePoint>
   <fb:locationIndicator>KHGR</...>
   <fb:referencePoint srsName="...:EPSG::4326">
    <fb:pos>39.70861111 -77.72638889</fb:pos>
-  </fb:referencePoint>
- </fb:aerodromeReferencePoint>
-</fx:elementStartPoint>
 ```
+
+`0.00 NM`
+
+```xml
+<fx:alongRouteDistance uom="NM">0.0</...>
+```
+
+`Direct`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:otherRouteDesignator>DIRECT</...>
+```
+
 
 </p></td>
 <td><p>
@@ -799,13 +809,7 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-`Direct`
 
-```xml
-<fx:routeDesignatorToNextElement>
- <fx:otherRouteDesignator>DIRECT</...>
-</fx:routeDesignatorToNextElement>
-```
 
 </p></td>
 
