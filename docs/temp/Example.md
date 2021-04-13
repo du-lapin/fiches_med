@@ -807,11 +807,6 @@ Encoding Rules:
 ```
 
 </p></td>
-<td><p>
-
-
-
-</p></td>
 
 </tr>
 
@@ -838,18 +833,12 @@ Encoding Rules:
    <fb:pos>39.69777778 -77.85583333</fb:pos>
 ```
 
-</p></td>
-<td><p>
-
 `6.12 NM`
 
 ```xml
 <fx:alongRouteDistance 
  uom="NM">6.12</...>
 ```
-
-</p></td>
-<td><p>
 
 `V268`
 
@@ -859,6 +848,12 @@ Encoding Rules:
 ```
 
 </p></td>
+<td><p>
+
+
+
+</p></td>
+
 </tr>
 
 <tr>
@@ -884,18 +879,12 @@ Encoding Rules:
    <fb:pos>39.5625 -77.26722222</fb:pos>
 ```
 
-</p></td>
-<td><p>
-
 `34.48 NM`
 
 ```xml
 <fx:alongRouteDistance 
  uom="NM">34.48</...>
 ```
-
-</p></td>
-<td><p>
 
 `V268`
 
@@ -905,6 +894,12 @@ Encoding Rules:
 ```
 
 </p></td>
+<td><p>
+
+
+
+</p></td>
+
 </tr>
 
 <tr>
@@ -930,18 +925,12 @@ Encoding Rules:
    <fb:pos>39.495 -76.97861111</fb:pos>
 ```
 
-</p></td>
-<td><p>
-
 `48.67 NM`
 
 ```xml
 <fx:alongRouteDistance 
  uom="NM">48.67</...>
 ```
-
-</p></td>
-<td><p>
 
 `Direct`
 
@@ -951,6 +940,12 @@ Encoding Rules:
 ```
 
 </p></td>
+<td><p>
+
+
+
+</p></td>
+
 </tr>
 
 <tr>
@@ -976,9 +971,6 @@ Encoding Rules:
    <fb:pos>39.17583333 -76.66888889</fb:pos>
 ```
 
-</p></td>
-<td><p>
-
 `72.47 NM`
 
 ```xml
@@ -986,10 +978,12 @@ Encoding Rules:
  uom="NM">72.47</...>
 ```
 
+`n/a`
+
 </p></td>
 <td><p>
 
-`n/a`
+
 
 </p></td>
 
