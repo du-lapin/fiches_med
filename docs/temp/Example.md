@@ -728,9 +728,9 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>RE Start Point<br>& Geographic Position (optional) & Along Route Distance (optional)</th>
-<th>Route to Next Element</th>
+<th>RE Start Point<br>& Geographic Position (optional)<br>& Along Route Distance (optional)</th>
 <th>Trajectory Point</th>
+<th>Route to Next Element</th>
 </tr>
 </thead>
 <tbody>
@@ -765,17 +765,6 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-`Direct`
-
-```xml
-<fx:routeDesignatorToNextElement>
- <fx:otherRouteDesignator>DIRECT</...>
-</fx:routeDesignatorToNextElement>
-```
-
-</p></td>
-<td><p>
-
 `Geographic Position` `N39:42:31 W077:43:35`
 
 `Point Property` `Airport Reference Loc.` `Initial Prediction Point`
@@ -805,6 +794,17 @@ Encoding Rules:
   <fx:absoluteTime>2021-03-04T07:00:00.000Z</...>
  </fx:time>
 </fx:point4D>
+```
+
+</p></td>
+<td><p>
+
+`Direct`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:otherRouteDesignator>DIRECT</...>
+</fx:routeDesignatorToNextElement>
 ```
 
 </p></td>
