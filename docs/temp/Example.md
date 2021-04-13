@@ -904,6 +904,9 @@ Encoding Rules:
 
 </p></td>
 <td><p>
+
+`N39:40:38 W077:45:57` `4389 ft` `Relative 00:04:43`
+
 </p></td>
 </tr>
 
@@ -936,6 +939,9 @@ Encoding Rules:
 
 </p></td>
 <td><p>
+
+`N39:40:06 W077:43:36` `5000 ft` `Relative 00:05:35`
+
 </p></td>
 </tr>
 
@@ -968,6 +974,9 @@ Encoding Rules:
 
 </p></td>
 <td><p>
+
+`N39:39:48 W077:42:15` `5000 ft` `Relative 00:06:02`
+
 </p></td>
 </tr>
 
@@ -1015,7 +1024,7 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-
+`N39:33:45 W077:16:02` `5000 ft` `Relative 00:13:56`
 
 </p></td>
 
@@ -1061,7 +1070,7 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-
+`N39:29:42 W076:58:43` `5000 ft` `Relative 00:19:02`
 
 </p></td>
 
@@ -1097,6 +1106,9 @@ Encoding Rules:
 
 </p></td>
 <td><p>
+
+`N39:27:26 W076:56:30` `5000 ft` `Relative 00:20:01`
+
 </p></td>
 </tr>
 
@@ -1129,6 +1141,9 @@ Encoding Rules:
 
 </p></td>
 <td><p>
+
+`N39:26:54 W076:55:59` `4852 ft` `Relative 00:20:15`
+
 </p></td>
 </tr>
 
@@ -1161,6 +1176,9 @@ Encoding Rules:
 
 </p></td>
 <td><p>
+
+`N39:11:16 W076:40:50` `366 ft` `Relative 00:26:55`
+
 </p></td>
 </tr>
 
@@ -1199,7 +1217,7 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-
+`N39:10:33 W076:40:08` `143 ft` `Relative 00:27:15`
 
 </p></td>
 
