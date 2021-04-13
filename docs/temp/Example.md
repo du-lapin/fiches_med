@@ -728,7 +728,7 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>Route Element<br>- Start Point & Geographic Position <br>- Along Route Distance (optional)<br>Route to Next Element</th>
+<th>Route Element<br>- Start Point & Geographic Position <br>- Along Route Distance<br>Route to Next Element</th>
 <th>Trajectory Point<br>- Geographic Position / Level / Time<br>- Indicated Air Speed<br>- Point Property</th>
 </tr>
 </thead>
@@ -890,7 +890,17 @@ Encoding Rules:
 
 `10.35 NM`
 
+```xml
+<fx:alongRouteDistance 
+ uom="NM">10.35</...>
+```
+
 `V268`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:routeDesignator>V268</...>
+```
 
 </p></td>
 <td><p>
@@ -912,7 +922,17 @@ Encoding Rules:
 
 `12.18 NM`
 
+```xml
+<fx:alongRouteDistance 
+ uom="NM">12.18</...>
+```
+
 `V268`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:routeDesignator>V268</...>
+```
 
 </p></td>
 <td><p>
@@ -934,7 +954,17 @@ Encoding Rules:
 
 `13.26 NM`
 
+```xml
+<fx:alongRouteDistance 
+ uom="NM">13.26</...>
+```
+
 `V268`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:routeDesignator>V268</...>
+```
 
 </p></td>
 <td><p>
@@ -1053,7 +1083,17 @@ Encoding Rules:
 
 `51.18 NM`
 
+```xml
+<fx:alongRouteDistance 
+ uom="NM">51.18</...>
+```
+
 `Direct`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:otherRouteDesignator>DIRECT</...>
+```
 
 </p></td>
 <td><p>
@@ -1075,7 +1115,17 @@ Encoding Rules:
 
 `51.84 NM`
 
+```xml
+<fx:alongRouteDistance 
+ uom="NM">51.84</...>
+```
+
 `Direct`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:otherRouteDesignator>DIRECT</...>
+```
 
 </p></td>
 <td><p>
@@ -1097,7 +1147,17 @@ Encoding Rules:
 
 `71.52 NM`
 
+```xml
+<fx:alongRouteDistance 
+ uom="NM">71.52</...>
+```
+
 `Direct`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:otherRouteDesignator>DIRECT</...>
+```
 
 </p></td>
 <td><p>
@@ -1127,11 +1187,11 @@ Encoding Rules:
    <fb:pos>39.17583333 -76.66888889</fb:pos>
 ```
 
-`72.47 NM`
+`72.45 NM`
 
 ```xml
 <fx:alongRouteDistance 
- uom="NM">72.47</...>
+ uom="NM">72.45</...>
 ```
 
 `n/a`
