@@ -728,8 +728,8 @@ Encoding Rules:
 <thead>
 <tr class="header">
 <th>#</th>
-<th>**Route Element Start Point** & Geographic Position (optional)<br>& Along Route Distance (optional)<br>& Route to Next Element</th>
-<th>Trajectory Point</th>
+<th>Route Element Start Point & Geographic Position (optional)<br>& Along Route Distance (optional)<br>& Route to Next Element</th>
+<th>Trajectory Point<br>- Lat/Long/Level/Time<br>- Point Property</th>
 </tr>
 </thead>
 <tbody>
@@ -774,13 +774,12 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-`Geographic Position` `N39:42:31 W077:43:35`
+`N39:42:31 W077:43:35` `703 ft` `Absolute 07:00:00`
 
-`Point Property` `Airport Reference Loc.` `Initial Prediction Point`
+`125 kts`
 
-`Altitude` `703 ft` `Ind. Air Speed` `125 kts`
+`Airport Reference Loc.` `Initial Prediction Point`
 
-`Time` `Absolute 07:00:00`
 
 ```xml
 <fx:point4D>
