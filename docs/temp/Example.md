@@ -730,7 +730,6 @@ Encoding Rules:
 <th>#</th>
 <th>RE Start Point<br>& Geographic Position (optional)<br>& Along Route Distance (optional)<br>& Route to Next Element</th>
 <th>Trajectory Point</th>
-<th>Route to Next Element</th>
 </tr>
 </thead>
 <tbody>
