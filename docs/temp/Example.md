@@ -498,11 +498,11 @@ Encoding Rules:
 </p></td>
 <td><p>
 
-`Direct`
+`V268`
 
 ```xml
 <fx:routeDesignatorToNextElement>
- <fx:otherRouteDesignator>DIRECT</...>
+ <fx:routeDesignator>V268</...>
 ```
 
 </p></td>
@@ -723,6 +723,300 @@ Encoding Rules:
 ```
 
 ## Content of `<fx:routeTrajectoryGroup>` - FF-ICE Trajectory
+
+<table>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>RE Start Point<br>& Geographic Position (optional)  </th>
+<th>Along route Distance (optional)</th>
+<th>Route to Next Element</th>
+<th>Trajectory Point</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td><p>
+
+`1`
+
+```xml
+<fx:element 
+ seqNum="0">
+```
+
+</p></td>
+<td><p>
+
+`KHGR` `N39:42:31 W007:43:35`
+
+```xml
+<fx:elementStartPoint>
+ <fb:aerodromeReferencePoint>
+  <fb:locationIndicator>KHGR</...>
+  <fb:referencePoint srsName="...:EPSG::4326">
+   <fb:pos>39.70861111 -77.72638889</fb:pos>
+```
+
+</p></td>
+<td><p>
+
+`0.00 NM`
+
+```xml
+<fx:alongRouteDistance
+ uom="NM">0</...>
+```
+
+</p></td>
+<td><p>
+
+`Direct`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:otherRouteDesignator>DIRECT</...>
+```
+
+</p></td>
+<td><p>
+
+
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`2`
+
+```xml
+<fx:element 
+ seqNum="1">
+```
+
+</p></td>
+<td><p>
+
+`HGR` `N39:41:52 W077:51:21`
+
+```xml
+<fx:elementStartPoint>
+ <fb:navaid>
+  <fb:designator>HGR</fb:...>
+  <fb:position srsName="...:EPSG::4326">
+   <fb:pos>39.69777778 -77.85583333</fb:pos>
+```
+
+</p></td>
+<td><p>
+
+`6.12 NM`
+
+```xml
+<fx:alongRouteDistance 
+ uom="NM">6.12</...>
+```
+
+</p></td>
+<td><p>
+
+`V268`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:routeDesignator>V268</...>
+```
+
+</p></td>
+<td><p>
+
+
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`3`
+
+```xml
+<fx:element 
+ seqNum="2">
+```
+
+</p></td>
+<td><p>
+
+`KEMAR` `N39:33:45 W077:16:02`
+
+```xml
+<fx:elementStartPoint>
+ <fb:designatedPoint>
+  <fb:designator>KEMAR</fb:designator>
+  <fb:position srsName="...:EPSG::4326">
+   <fb:pos>39.5625 -77.26722222</fb:pos>
+```
+
+</p></td>
+<td><p>
+
+`34.48 NM`
+
+```xml
+<fx:alongRouteDistance 
+ uom="NM">34.48</...>
+```
+
+</p></td>
+<td><p>
+
+`V268`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:routeDesignator>V268</...>
+```
+
+</p></td>
+<td><p>
+
+
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`4`
+
+```xml
+<fx:element 
+ seqNum="3">
+```
+
+</p></td>
+<td><p>
+
+`EMI` `N39:29:42 W076:58:43`
+
+```xml
+<fx:elementStartPoint>
+ <fb:navaid>
+  <fb:designator>EMI</fb:designator>
+  <fb:position srsName="...:EPSG::4326">
+   <fb:pos>39.495 -76.97861111</fb:pos>
+```
+
+</p></td>
+<td><p>
+
+`48.67 NM`
+
+```xml
+<fx:alongRouteDistance 
+ uom="NM">48.67</...>
+```
+
+</p></td>
+<td><p>
+
+`Direct`
+
+```xml
+<fx:routeDesignatorToNextElement>
+ <fx:otherRouteDesignator>DIRECT</...>
+```
+
+</p></td>
+<td><p>
+
+
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+`5`
+
+```xml
+<fx:element 
+ seqNum="4">
+```
+
+</p></td>
+<td><p>
+
+`KBWI` `N39:10:33 W076:40:08`
+
+```xml
+<fx:elementStartPoint>
+ <fb:aerodromeReferencePoint>
+  <fb:locationIndicator>KBWI</...>
+  <fb:referencePoint srsName="...:EPSG::4326">
+   <fb:pos>39.17583333 -76.66888889</fb:pos>
+```
+
+</p></td>
+<td><p>
+
+`72.47 NM`
+
+```xml
+<fx:alongRouteDistance 
+ uom="NM">72.47</...>
+```
+
+</p></td>
+<td><p>
+
+`n/a`
+
+</p></td>
+<td><p>
+
+
+</p></td>
+</tr>
+
+<tr>
+<td><p>
+
+Encoding Rules:
+* Rules for [`seqNum`](https://docs.fixm.aero/#/general-guidance/sequence-numbers)
+
+</p></td>
+<td><p>
+
+Encoding Rules:
+* Rules for [` <fb:aerodromeReferencePoint>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes) 
+* Rules for [`<fb:navaid>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-navaid) 
+* Rules for [`<fb:pos>`](https://docs.fixm.aero/#/general-guidance/geographical-positions)
+
+</p></td>
+<td><p>
+
+
+</p></td>
+<td><p>
+
+
+</p></td>
+<td><p>
+
+
+</p></td>
+<td><p>
+
+
+</p></td>
+</tr>
+
+
+</tbody>
+</table>
 
 |`<fx:element>`|`<fx:elementStartPoint>`|`<fx:routeDesignatorToNextElement>`|`<fx:alongRouteDistance>`|`<fx:point4D>`|
 |:-|:-|:-|:-|:-|
