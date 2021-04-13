@@ -847,7 +847,31 @@ Encoding Rules:
 </p></td>
 <td><p>
 
+`Geographic Position` `N39:41:52 W077:51:21`
 
+`Point Property` `TCP - Lateral`
+
+`Altitude` `2732 ft` `Ind. Air Speed` `125 kts`
+
+`Time` `Relative 00:02:35`
+
+```xml
+<fx:point4D>
+ <fx:level>
+  <fb:altitude uom="FT">2732</fb:altitude>
+ </fx:level>
+ <fx:pointProperty>
+  <fx:propertyType>TCP_LATERAL</fx:propertyType>
+ </fx:pointProperty>
+ <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+  <fb:pos>39.70861111 -77.72638889</fb:pos>
+ </fx:position>
+ <fx:predictedAirspeed uom="KT">125</fx:predictedAirspeed>
+ <fx:time>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H2M35.000S</...>
+ </fx:time>
+</fx:point4D>
+```
 
 </p></td>
 
