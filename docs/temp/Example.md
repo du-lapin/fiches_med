@@ -802,9 +802,13 @@ Encoding Rules:
   <fx:absoluteTime>2021-03-04T07:00:00.000Z</...>
  </fx:time>
 </fx:point4D>
+<!--
+The example uses the aerodrome reference location as the Initial  Prediction Point. 
+However, if known, the specific departure runway location should be included 
+as precise trajectory start point, using the appropriate point property (Wheels_off...).
+-->
 ```
 
-*The example uses the aerodrome reference location as the Start Prediction Point. However, if known, the specific departure runway location should be included as precise trajectory start point, using the appropriate point property (Wheels_off...).*
 
 
 </p></td>
