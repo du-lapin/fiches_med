@@ -933,9 +933,16 @@ the appropriate point property (Wheels_off...).
   <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H4M43.000S</...>
  </fx:time>
 </fx:point4D>
+<!--
+A trajectory point with no associated significant point will
+still show an along route distance. This must be the projection
+of the trajectory point geographic position onto the relevant
+route segment. This projection should be perpendicular to the
+trajectory.
+-->
 ```
 
-A trajectory point with no associated significant point will still show an along route distance. This must be the projection of the trajectory point geographic position onto the relevant route segment. This projection should be perpendicular to the trajectory.
+
 
 </p></td>
 </tr>
@@ -1046,7 +1053,7 @@ A trajectory point with no associated significant point will still show an along
  </fx:position>
  <fx:predictedAirspeed uom="KT">160</fx:predictedAirspeed>
  <fx:time>
-  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H6M2.000S</fx:relativeTimeFromInitialPredictionPoint>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H6M2.000S</...>
  </fx:time>
 </fx:point4D>
 ```
@@ -1408,7 +1415,7 @@ A trajectory point with no associated significant point will still show an along
  </fx:position>
  <fx:predictedAirspeed uom="KT">100</fx:predictedAirspeed>
  <fx:time>
-  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H27M15.000S</fx:relativeTimeFromInitialPredictionPoint>
+  <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H27M15.000S</...>
  </fx:time>
 </fx:point4D>
 ```
