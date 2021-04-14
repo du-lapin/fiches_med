@@ -929,6 +929,8 @@ Encoding Rules:
 </fx:point4D>
 ```
 
+A trajectory point with no associated significant point will still show an along route distance. This must be the projection of the trajectory point geographic position onto the relevant route segment. This projection should be perpendicular to the trajectory.
+
 </p></td>
 </tr>
 
