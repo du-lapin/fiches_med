@@ -904,6 +904,14 @@ the appropriate point property (Wheels_off...).
 ```xml
 <fx:alongRouteDistance 
  uom="NM">10.35</...>
+<!--
+A trajectory point with no associated significant 
+point will still show an along route distance. 
+This must be the projection of the trajectory point
+geographic position onto the relevant route segment.
+This projection should be perpendicular to the
+trajectory.
+-->
 ```
 
 `V268`
@@ -933,13 +941,6 @@ the appropriate point property (Wheels_off...).
   <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H4M43.000S</...>
  </fx:time>
 </fx:point4D>
-<!--
-A trajectory point with no associated significant point will
-still show an along route distance. This must be the projection
-of the trajectory point geographic position onto the relevant
-route segment. This projection should be perpendicular to the
-trajectory.
--->
 ```
 
 
